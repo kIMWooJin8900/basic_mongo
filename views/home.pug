@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+    body
+        h1 Hello World!
+
+        each data in LectureList
+            h3 강의명 : #{data.name}
+            h3 강사명 : #{data.teacher}
+            h3 수강료 :  #{data.pay} 원
+            hr
