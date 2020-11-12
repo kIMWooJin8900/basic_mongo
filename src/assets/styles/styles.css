@@ -1,0 +1,71 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+
+    padding: 30px;
+    align-items: center;
+}
+
+.wrapper .dataBox {
+    width: 350px;
+    height: 220px;
+    margin-bottom: 25px;
+    
+    
+    border: 1px solid rgb(180, 180, 180) ;
+    border-radius: 4px;
+
+    transform: 0.6s;
+    box-shadow: 15px 15px 1px #999;
+
+}
+
+.wrapper .dataBox:hover {
+    box-shadow: 15px 15px 15px #999;
+}
+
+.wrapper .dataBox .dataBox__top {
+    width: 100%;
+    height: 40%;
+
+    padding: 10px;
+    
+}
+
+.wrapper .dataBox .dataBox__bottom span {
+    font-size: 18px;
+    color: rgb(50, 50, 50);
+    font-weight: 700;
+}
+
+.wrapper .dataBox .dataBox__bottom {
+    width: 100%;
+    height: 60%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper .dataBox .dataBox__bottom .dataBox__bottom__left {
+    width: 50%;
+    height: 100%;
+
+    padding: 10px;
+
+    
+}
+
+.wrapper .dataBox .dataBox__bottom .dataBox__bottom__right {
+    width: 50%;
+    height: 100%;
+
+    padding: 10px;
+    
+}
+
+.wrapper .dataBox .dataBox__bottom .dataBox__bottom__left span,
+.wrapper .dataBox .dataBox__bottom .dataBox__bottom__right span {
+    font-size: 16px;
+    color: rgb(150, 150, 150);
+    font-style: italic;
+}

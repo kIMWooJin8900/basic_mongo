@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title LECTURE
+        link(rel="stylesheet", href="/styles/styles.css")
+    body
+        each data in dataList
+            .wrapper
+                .dataBox 
+                    .dataBox__top
+                        span  #{data.name}
+                    .dataBox__bottom
+                        .dataBox__bottom__left
+                            span #{data.teacher}
+                        .dataBox__bottom__right
+                            span #{data.pay}
+                
