@@ -1,0 +1,28 @@
+.Bwrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .Bwrapper .Bwrapper__left {
+    width: 10%;
+  }
+  
+  .Bwrapper .Bwrapper__content {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Bwrapper .Bwrapper__right {
+    width: 10%;
+  }
+  .boardBox {
+    width: 900px;
+    height: 110px;
+    border: 1px solid #999999;
+    box-shadow: 4px 4px 5px #999999;
+    border-radius: 3px;
+    margin-bottom: 5px;
+  }
+  
